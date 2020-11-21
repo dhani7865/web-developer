@@ -1,0 +1,80 @@
+/*
+  Ignore this  CSS for now. It is provided to make the page look a little better as you style it.
+*/
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  font-family: arial;
+}
+
+p.intro {
+  font-weight: bold;
+  background: lightgrey;
+  padding: 5px;
+}
+
+
+body {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #0000ff;
+  color: black;
+}
+
+.sample-map {
+  width: 100%;
+  background: pink;
+  height: 200px;
+}
+
+.container {
+  background: white;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid #888;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+figure {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.contact-details {
+  display: flex;
+}
+
+.contact-details div {
+  flex: 1; 
+}
+
+.even {
+  background: lightgrey;
+}
